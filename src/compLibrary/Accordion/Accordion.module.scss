@@ -1,0 +1,9 @@
+.notExpanded {
+    overflow: hidden;
+    transition: ease 0.3s;
+}
+
+.expanded {
+    transition: ease 0.3s;
+    overflow: hidden;
+}

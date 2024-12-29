@@ -1,0 +1,21 @@
+.top__actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.tabs_controlled {
+    max-width: 424px;
+    width: 100%;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

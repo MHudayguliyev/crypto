@@ -1,0 +1,38 @@
+@use '../../styles/globalFunctions.scss' as *;
+@use '../../styles/globalBreakPoints.scss' as *;
+@use '../../styles/globalShapes.scss' as Gshapes;
+@use '../../styles/globalAnimation.scss' as Ganimation;
+
+.modal {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: Gshapes.$modalZIndex;
+    top: 0;
+    left: 0;
+    background: rgba(31, 31, 31, 0.72);
+    backdrop-filter: blur(8px);
+    color: var(--white);
+}
+
+.modalContent {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalAnimation {
+    animation: modalAnimation Ganimation.$modalDuration ease;
+}
+
+@keyframes modalAnimation {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

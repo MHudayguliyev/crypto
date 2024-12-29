@@ -1,0 +1,53 @@
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.depositModal {
+    background-color: var(--mild-dark);
+    border-radius: 12px;
+    padding: 24px 24px 32px 24px;
+    max-width: 424px;
+    width: 100%;
+}
+
+.close_icon {
+    cursor: pointer;
+}
+
+.field {
+    background-color: var(--gray-22);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    .balance {
+        color: var(--gray-10);
+        align-self: flex-end;
+    }
+
+    .amount_field {
+        input {
+            width: 100%;
+        }
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+    }
+
+    .max {
+        border: 1px solid var(--primary-6);
+        color: var(--primary-6);
+        border-radius: var(--border-radius);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 41px;
+        height: 24px;
+        font-size: 12px;
+    }
+}

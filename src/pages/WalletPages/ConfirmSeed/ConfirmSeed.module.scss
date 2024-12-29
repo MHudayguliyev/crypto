@@ -1,0 +1,50 @@
+@use '../../../styles/globalTypography.scss' as *;
+
+.header {
+    .head {
+        font-weight: $fontWeightBold;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    p {
+        color: var(--gray-10);
+    }
+}
+
+.main {
+    max-width: 650px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.row {
+    max-width: 424px;
+    width: 100%;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.warning {
+    background: rgba(254, 186, 73, 0.1);
+    border: 1px solid #FFBB49;
+    border-radius: 12px;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    span {
+        display: flex;
+    }
+}

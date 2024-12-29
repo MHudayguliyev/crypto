@@ -1,0 +1,14 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.successModal {
+    background-color: var(--gray-23);
+    border-radius: 12px;
+    padding: 24px 24px 32px 24px;
+    max-width: 420px;
+    width: 100%;
+}

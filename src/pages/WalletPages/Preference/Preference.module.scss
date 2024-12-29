@@ -1,0 +1,47 @@
+@use '../../../styles/globalTypography.scss' as *;
+
+.main {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    font-weight: $fontWeightBold;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.minHeader {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 8px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.label {
+    line-height: 24px;
+
+}
+
+.value {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 4px;
+
+    span {
+        display: flex;
+    }
+
+    .text {
+        color: var(--gray-10);
+    }
+}

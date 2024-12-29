@@ -1,0 +1,319 @@
+{
+  "wallets": [
+    {
+      "id": "walletid12312",
+      "name": "Maksat"
+    }
+  ],
+  "liquidities": [],
+  "pools": [
+    {
+      "id": "1",
+      "apr": "1,292.00 ",
+      "deposit_fee": 0,
+      "harvert_lockup": "2 Hour(s)",
+      "shortName": "AM",
+      "lp_type": "AM-LP",
+      "am_earned": 0,
+      "approved": true,
+      "sources": [
+        "http://localhost:5173/src/assets/images/binance-wallet.png"
+      ],
+      "approved_amount": 789,
+      "details": {
+        "deposit": "AM-BNB LP",
+        "total_liquidity": "42,520,682",
+        "lp_worth": "2,421"
+      }
+    },
+    {
+      "id": "2",
+      "apr": "1,292.00 ",
+      "deposit_fee": 0,
+      "harvert_lockup": "2 Hour(s)",
+      "shortName": "AM",
+      "lp_type": "AM-LP",
+      "am_earned": 0,
+      "approved": false,
+      "sources": [
+        "http://localhost:5173/src/assets/images/binance-wallet.png"
+      ],
+      "approved_amount": 4996,
+      "details": {
+        "deposit": "AM-BNB LP",
+        "total_liquidity": "42,520,682",
+        "lp_worth": "2,421"
+      }
+    },
+    {
+      "id": "3",
+      "apr": "1,292.00 ",
+      "deposit_fee": 0,
+      "harvert_lockup": "2 Hour(s)",
+      "shortName": "AM",
+      "lp_type": "AM-LP",
+      "am_earned": 0,
+      "approved": false,
+      "sources": [
+        "http://localhost:5173/src/assets/images/binance-wallet.png"
+      ],
+      "approved_amount": 0,
+      "details": {
+        "deposit": "AM-BNB LP",
+        "total_liquidity": "42,520,682",
+        "lp_worth": "2,421"
+      }
+    },
+    {
+      "id": "4",
+      "apr": "1,292.00 ",
+      "deposit_fee": 0,
+      "harvert_lockup": "2 Hour(s)",
+      "shortName": "AM",
+      "lp_type": "AM-LP",
+      "am_earned": 0,
+      "approved": false,
+      "sources": [
+        "http://localhost:5173/src/assets/images/binance-wallet.png"
+      ],
+      "approved_amount": 0,
+      "details": {
+        "deposit": "AM-BNB LP",
+        "total_liquidity": "42,520,682",
+        "lp_worth": "2,421"
+      }
+    },
+    {
+      "id": "5",
+      "apr": "1,292.00 ",
+      "deposit_fee": 0,
+      "harvert_lockup": "2 Hour(s)",
+      "shortName": "AM",
+      "lp_type": "AM-LP",
+      "am_earned": 0,
+      "approved": false,
+      "sources": [
+        "http://localhost:5173/src/assets/images/binance-wallet.png"
+      ],
+      "approved_amount": 0,
+      "details": {
+        "deposit": "AM-BNB LP",
+        "total_liquidity": "42,520,682",
+        "lp_worth": "2,421"
+      }
+    },
+    {
+      "id": "6",
+      "apr": "1,292.00 ",
+      "deposit_fee": 0,
+      "harvert_lockup": "2 Hour(s)",
+      "shortName": "AM",
+      "lp_type": "AM-LP",
+      "am_earned": 0,
+      "approved": false,
+      "sources": [
+        "http://localhost:5173/src/assets/images/binance-wallet.png"
+      ],
+      "approved_amount": 0,
+      "details": {
+        "deposit": "AM-BNB LP",
+        "total_liquidity": "42,520,682",
+        "lp_worth": "2,421"
+      }
+    }
+  ],
+  "farms": [
+    {
+      "id": "1",
+      "apr": "1,292.00 ",
+      "deposit_fee": 0,
+      "harvert_lockup": "2 Hour(s)",
+      "shortName": "AM",
+      "lp_type": "AM-LP",
+      "am_earned": 0,
+      "approved": true,
+      "sources": [
+        "http://localhost:5173/src/assets/images/binance-wallet.png",
+        "http://localhost:5173/src/assets/images/logo-coin.png"
+      ],
+      "approved_amount": 564,
+      "details": {
+        "deposit": "AM-BNB LP",
+        "total_liquidity": "42,520,682",
+        "lp_worth": "2,421"
+      }
+    },
+    {
+      "id": "2",
+      "apr": "1,292.00 ",
+      "deposit_fee": 0,
+      "harvert_lockup": "2 Hour(s)",
+      "shortName": "AM",
+      "lp_type": "AM-LP",
+      "am_earned": 0,
+      "approved": false,
+      "sources": [
+        "http://localhost:5173/src/assets/images/binance-wallet.png",
+        "http://localhost:5173/src/assets/images/logo-coin.png"
+      ],
+      "approved_amount": 990,
+      "details": {
+        "deposit": "AM-BNB LP",
+        "total_liquidity": "42,520,682",
+        "lp_worth": "2,421"
+      }
+    },
+    {
+      "id": "3",
+      "apr": "1,292.00 ",
+      "deposit_fee": 0,
+      "harvert_lockup": "2 Hour(s)",
+      "shortName": "AM",
+      "lp_type": "AM-LP",
+      "am_earned": 0,
+      "approved": false,
+      "sources": [
+        "http://localhost:5173/src/assets/images/binance-wallet.png",
+        "http://localhost:5173/src/assets/images/logo-coin.png"
+      ],
+      "approved_amount": 321,
+      "details": {
+        "deposit": "AM-BNB LP",
+        "total_liquidity": "42,520,682",
+        "lp_worth": "2,421"
+      }
+    },
+    {
+      "id": "4",
+      "apr": "1,292.00 ",
+      "deposit_fee": 0,
+      "harvert_lockup": "2 Hour(s)",
+      "shortName": "AM",
+      "lp_type": "AM-LP",
+      "am_earned": 0,
+      "approved": false,
+      "sources": [
+        "http://localhost:5173/src/assets/images/binance-wallet.png",
+        "http://localhost:5173/src/assets/images/logo-coin.png"
+      ],
+      "approved_amount": 3,
+      "details": {
+        "deposit": "AM-BNB LP",
+        "total_liquidity": "42,520,682",
+        "lp_worth": "2,421"
+      }
+    },
+    {
+      "id": "5",
+      "apr": "1,292.00 ",
+      "deposit_fee": 0,
+      "harvert_lockup": "2 Hour(s)",
+      "shortName": "AM",
+      "lp_type": "AM-LP",
+      "am_earned": 0,
+      "approved": false,
+      "sources": [
+        "http://localhost:5173/src/assets/images/binance-wallet.png",
+        "http://localhost:5173/src/assets/images/logo-coin.png"
+      ],
+      "approved_amount": 544,
+      "details": {
+        "deposit": "AM-BNB LP",
+        "total_liquidity": "42,520,682",
+        "lp_worth": "2,421"
+      }
+    },
+    {
+      "id": "6",
+      "apr": "1,292.00 ",
+      "deposit_fee": 0,
+      "harvert_lockup": "2 Hour(s)",
+      "shortName": "AM",
+      "lp_type": "AM-LP",
+      "am_earned": 0,
+      "approved": false,
+      "sources": [
+        "http://localhost:5173/src/assets/images/binance-wallet.png",
+        "http://localhost:5173/src/assets/images/logo-coin.png"
+      ],
+      "approved_amount": 901,
+      "details": {
+        "deposit": "AM-BNB LP",
+        "total_liquidity": "42,520,682",
+        "lp_worth": "2,421"
+      }
+    }
+  ],
+  "jungles": [
+    {
+      "id": "1",
+      "apr": "1,292.00 ",
+      "deposit_fee": 0,
+      "harvert_lockup": "2 Hour(s)",
+      "shortName": "BNB",
+      "lp_type": "AM-LP",
+      "am_earned": 0,
+      "your_staked": 0,
+      "approved": false,
+      "deposited": false,
+      "deposited_amount": 0,
+      "sources": [
+        "http://localhost:5173/src/assets/images/binance-wallet.png",
+        "http://localhost:5173/src/assets/images/logo-coin.png"
+      ],
+      "approved_amount": 1230,
+      "details": {
+        "deposit": "BNB Jungle",
+        "total_liquidity": "42,520,682",
+        "lp_worth": "2,421",
+        "end": "142,120 Blocks"
+      }
+    },
+    {
+      "id": "2",
+      "apr": "1,292.00 ",
+      "deposit_fee": 0,
+      "harvert_lockup": "2 Hour(s)",
+      "shortName": "BUSD",
+      "lp_type": "BUSD-LP",
+      "am_earned": 0,
+      "approved": true,
+      "deposited": true,
+      "deposited_amount": 1234,
+      "sources": [
+        "http://localhost:5173/src/assets/images/binance-wallet.png",
+        "http://localhost:5173/src/assets/images/logo-coin.png"
+      ],
+      "approved_amount": 123,
+      "details": {
+        "deposit": "BUSD Jungle",
+        "total_liquidity": "42,520,682",
+        "lp_worth": "2,421",
+        "end": "142,120 Blocks"
+      }
+    },
+    {
+      "id": "3",
+      "apr": "1,292.00 ",
+      "deposit_fee": 0,
+      "harvert_lockup": "2 Hour(s)",
+      "shortName": "USDT",
+      "lp_type": "USDT-LP",
+      "am_earned": 0,
+      "approved": false,
+      "deposited": false,
+      "deposited_amount": 0,
+      "sources": [
+        "http://localhost:5173/src/assets/images/binance-wallet.png",
+        "http://localhost:5173/src/assets/images/logo-coin.png"
+      ],
+      "approved_amount": 321,
+      "details": {
+        "deposit": "USDT Jungle",
+        "total_liquidity": "42,520,682",
+        "lp_worth": "2,421",
+        "end": "142,120 Blocks"
+      }
+    }
+  ]
+}

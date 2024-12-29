@@ -1,0 +1,43 @@
+.roiModal {
+    background-color: var(--mild-dark);
+    border-radius: 12px;
+    padding: 24px 24px 32px 24px;
+    max-width: 424px;
+    width: 100%;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.close_icon {
+    cursor: pointer;
+}
+
+.table_header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: .5px solid var(--gray-20);
+}
+
+.head_col {
+    color: var(--gray-10);
+    padding: 8px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.list_col {
+    padding: 8px;
+}
+
+.paragraph {
+    color: var(--gray-10);
+}

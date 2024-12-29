@@ -1,0 +1,101 @@
+@use '../../../styles/globalTypography.scss' as *;
+
+.image {
+    background-color: var(--gray-3);
+    border-radius: var(--border-radius-lg);
+    height: 205px;
+    width: 100%;
+}
+
+.name {
+    font-weight: $fontWeightBold;
+}
+
+.description {
+    color: var(--gray-10);
+    line-height: 26px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    label {
+        color: var(--gray-10);
+    }
+
+    .value {
+        font-weight: $fontWeightBold;
+        font-size: $fontSizeBig + px;
+        line-height: 24px;
+    }
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+
+    &:not(:last-child) {
+        margin-bottom: 16px;
+    }
+
+    ul {
+        padding-left: 14px;
+    }
+}
+
+.field_paper {
+    padding: 16px;
+    background-color: var(--gray-22);
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.field_paper_align_left {
+    align-items: flex-start;
+}
+
+.field {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    align-items: center;
+
+    input {
+        width: 100%;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .max {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 8px;
+        gap: 4px;
+        color: var(--primary-6);
+        width: 41px;
+        height: 24px;
+        border: 1px solid var(--primary-6);
+        border-radius: 8px;
+
+    }
+}
+
+.max_percentage {
+    padding-left: 10px;
+}

@@ -1,0 +1,69 @@
+@use '../../styles/globalBreakpoints.scss' as *;
+
+.topnavbar {
+    position: fixed;
+    left: 250px;
+    top: 0;
+    width: calc(100% - 250px);
+    right: 0;
+    color: var(--white);
+    background-color: var(--black);
+    z-index: 1000;
+
+    @media screen and (max-width: $mobile) {
+        width: 100%;
+        left: 0;
+    }
+}
+
+.content {
+    padding: 22px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    span {
+        display: flex;
+    }
+}
+
+.the_left,
+.the_right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.the_left {
+    @media screen and (max-width: calc($mobile - 16px)) {
+        display: none;
+    }
+}
+
+.image {
+    display: flex;
+}
+
+.divider {
+    width: 1px;
+    height: 40px;
+    background: var(--gray-20);
+}
+
+.bell {
+    position: relative;
+
+    .notification_number {
+        color: white;
+        background-color: var(--primary-6);
+        border-radius: 999px;
+        height: 24px;
+        width: 24px;
+        position: absolute;
+        right: 23px;
+        top: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

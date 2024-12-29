@@ -1,0 +1,106 @@
+@use '../../../../styles/globalTypography.scss' as *;
+@use '../../../../styles/globalBreakpoints.scss' as *;
+
+.main {
+    max-width: 650px;
+    width: 100%;
+    margin: 0 auto 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.header {
+    font-weight: $fontWeightBold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.tabs_controlled {
+    max-width: 424px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.textarea_controller {
+    position: relative;
+
+    p {
+        color: var(--gray-10);
+        font-size: 12px;
+    }
+}
+
+.actions {
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    @media screen and (max-width: $mobile) {
+        bottom: 50px;
+    }
+
+}
+
+.text,
+.faq {
+    color: var(--primary-6);
+    cursor: pointer;
+}
+
+.faq {
+    text-align: center;
+}
+
+.icon {
+    cursor: pointer;
+    display: flex;
+}
+
+.textarea {
+    font-family: 'DM-regular';
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    background: var(--gray-23);
+    color: white;
+    max-width: 634px;
+    width: 100%;
+    height: 124px;
+    border-radius: 12px;
+    padding: 16px;
+    resize: none;
+}
+
+.inputWrapper {
+    background: var(--gray-22);
+    border-radius: 12px;
+    width: 100%;
+    height: 68px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    label {
+        color: var(--gray-10);
+        font-size: 12px;
+    }
+}
+
+.success {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}

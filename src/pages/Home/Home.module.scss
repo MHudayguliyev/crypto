@@ -1,0 +1,7 @@
+@use '../../styles/globalTypography.scss' as *;
+
+.header {
+    font-weight: $fontWeightBold;
+    font-size: 18px;
+    line-height: 28px;
+}

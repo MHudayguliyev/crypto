@@ -1,0 +1,25 @@
+.seed {
+    font-family: "DM-regular";
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    outline: none;
+    padding: 8px;
+    margin: 0;
+    color: white;
+    border: 1px solid var(--gray-20);
+    border-radius: var(--border-radius-md);
+    background-color: transparent;
+    width: 100%;
+
+    span {
+        line-height: 24px;
+        text-align: center;
+    }
+}
+
+.disabled {
+    background-color: var(--gray-23);
+    color: var(--gray-18);
+    border: none;
+}

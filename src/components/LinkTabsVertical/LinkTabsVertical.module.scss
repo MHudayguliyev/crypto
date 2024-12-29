@@ -1,0 +1,26 @@
+.tabs_wrapper {
+    position: relative;
+    width: 100%;
+    border-right: 1px solid var(--gray-13);
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.list {
+    color: var(--gray-13);
+    padding: 10px 8px;
+    font-weight: 700;
+    cursor: pointer;
+    width: 100%;
+}
+
+.active {
+    color: var(--white);
+    border-right: 2px solid var(--primary-6);
+}

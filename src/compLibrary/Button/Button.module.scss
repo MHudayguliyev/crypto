@@ -1,0 +1,76 @@
+.baseStyle {
+    font-family: "DM-regular";
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 12px;
+    margin: 0;
+    color: white;
+}
+
+.iconed {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    display: flex;
+}
+
+.typeDashed {
+    border: 1px dashed var(--primary-6);
+}
+
+.typeContained {}
+
+.colorTheme {
+    background: linear-gradient(89.91deg, #455EFF -26.75%, #B33BF6 41.2%, #C745B9 59.97%, #FF5F14 108.26%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.colorDark {
+    background: #1F1F1F;
+    color: var(--primary-6);
+}
+
+.colorTransparent {
+    background-color: transparent;
+}
+
+.colorFaded {
+    background-color: var(--gray-22);
+    color: var(--gray-18);
+}
+
+.colorGray {
+    background: var(--gray-22);
+    color: var(--gray-18);
+}
+
+.rounded {
+    border-radius: var(--border-radius-md);
+}
+
+.topRounded {
+    border-top-right-radius: var(--border-radius-md);
+    border-top-left-radius: var(--border-radius-md);
+}
+
+.bottomRounded {
+    border-bottom-right-radius: var(--border-radius-md);
+    border-bottom-left-radius: var(--border-radius-md);
+}
+
+.rightRounded {
+    border-top-right-radius: var(--border-radius-md);
+    border-bottom-right-radius: var(--border-radius-md);
+}
+
+.leftRounded {
+    border-top-left-radius: var(--border-radius-md);
+    border-bottom-left-radius: var(--border-radius-md);
+}

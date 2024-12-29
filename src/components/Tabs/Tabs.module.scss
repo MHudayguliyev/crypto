@@ -1,0 +1,22 @@
+.tabs_filled {
+    position: relative;
+    width: 100%;
+    background-color: var(--gray-22);
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.item {
+    padding: 6px 16px;
+    border-radius: var(--border-radius);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.active {
+    background-color: var(--white);
+    color: var(--black);
+}

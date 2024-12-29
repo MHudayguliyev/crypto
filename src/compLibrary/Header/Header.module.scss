@@ -1,0 +1,54 @@
+@use '../../styles/globalTypography.scss' as *;
+
+.header {
+    width: 100%;
+    color: var(--white);
+}
+
+.sizeSmall {
+    font-size: $fontSizeMedium + px;
+}
+
+.sizeMedium {
+    font-size: 18px;
+}
+
+.sizeBig {
+    font-size: 24px;
+}
+
+.fontMedium {
+    font-weight: $fontWeightMedium;
+}
+
+.fontRegular {
+    font-weight: $fontWeightRegular;
+}
+
+.fontBold {
+    font-weight: $fontWeightBold;
+}
+
+.justifyLeft,
+.justifyRight,
+.justifyCenter {
+    display: flex;
+}
+
+.justifyLeft {
+    justify-content: flex-start
+}
+
+.justifyCenter {
+    justify-content: center
+}
+
+.justifyRight {
+    justify-content: flex-end
+}
+
+.flexible {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

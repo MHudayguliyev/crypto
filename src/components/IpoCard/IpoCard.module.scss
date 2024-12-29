@@ -1,0 +1,43 @@
+@use '../../styles/globalTypography.scss' as *;
+
+.card {
+    padding: 12px;
+    padding: 24px;
+}
+
+.image {
+    background-color: var(--gray-3);
+    border-radius: var(--border-radius-lg);
+    height: 125px;
+    width: 100%;
+}
+
+.name {
+    font-weight: $fontWeightBold;
+}
+
+.description {
+    color: var(--gray-10);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    label {
+        color: var(--gray-10);
+    }
+
+    .value {
+        font-weight: $fontWeightBold;
+        font-size: $fontSizeBig + px;
+        line-height: 24px;
+    }
+}

@@ -1,0 +1,31 @@
+@use '../../../styles/globalTypography.scss' as *;
+
+.row {
+    max-width: 424px;
+    width: 100%;
+}
+
+
+.header {
+    .head {
+        font-weight: $fontWeightBold;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    p {
+        color: var(--gray-10);
+    }
+}
+
+.main {
+    max-width: 650px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
