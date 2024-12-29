@@ -4,7 +4,7 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/MHudayguliyev/
+  git clone https://github.com/MHudayguliyev/crypto
 ```
 
 Go to the project directory
